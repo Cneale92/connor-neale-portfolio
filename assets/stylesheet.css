@@ -81,13 +81,21 @@ section p {
   padding-left: 3%;
 }
 
+.work {
+}
+
 section img {
   display: flex;
   padding-left: 3%;
 }
+section img:hover {
+  cursor: pointer;
+  opacity: .5;
+  transform: scale(110%);
+}
 
 .horiseon {
-
+  
 }
 
 .placeholder {
