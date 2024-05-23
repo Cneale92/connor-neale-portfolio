@@ -1,0 +1,93 @@
+
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+  height: 20vh;
+}
+
+header h1 {
+  font-size: 400%;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.portfolio-picture {
+  vertical-align: left;
+  width: auto;
+  height:100%;
+  border-radius: 25%;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #4e57e0;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: #1038a5;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  background-color: lightblue;
+  font-size: larger;
+}
+section {
+  border-style: dashed;
+}
+
+
+.footer {
+  width: 100%;
+  background-color: #4e57e0;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer a:hover {
+  background-color: #1038a5;
+}
+
+@media screen and (max-width: 500px) {
+  .footer a {
+    float: none;
+    display: block;
+  }
+}
