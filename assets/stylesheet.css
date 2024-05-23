@@ -3,10 +3,6 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h2 {
-  font-size: 200%;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -75,13 +71,11 @@ section h2 {
   border-left: 0px;
   border-bottom: 0px;
   border-top: 0px;
+  font-size: 200%;
 }
 
 section p {
   padding-left: 3%;
-}
-
-.work {
 }
 
 section img {
@@ -94,13 +88,22 @@ section img:hover {
   transform: scale(110%);
 }
 
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .horiseon {
-  
+  height: 400px;
+  width: 900px;
+  padding: 3%;
 }
 
 .placeholder {
-  height: 20%;
-  width: 20%;
+  height: 200px;
+  width: 300px;
+  padding: 3%;
 }
 
 .footer {
