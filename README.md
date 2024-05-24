@@ -7,4 +7,4 @@ This project's goal was to create a sample webpage of my future portfolio. I bui
 [Connor Neale's Portfolio](https://cneale92.github.io/connor-neale-portfolio/)
 
 ## Gif of the webpage
-![Horiseon Marketing](https://github.com/Cneale92/horiseon-marketing-refactor/assets/168998255/b9b4d0df-19f3-446d-a1ce-23ba2992fa83)
+![Connor Neale Portfolio](https://github.com/Cneale92/connor-neale-portfolio/blob/main/assets/Connor%20Neale's%20Portfolio.gif)
